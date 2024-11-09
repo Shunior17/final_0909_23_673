@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>final_0909_23_673</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="Js/script"></script>
+    </head>
+    <body>       
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="formulario.html">Formulario para registro de libros<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>    
+    
+       <div class="p-3 bd-highlight">
+            <div class="container" id="container2">
+                <table class="table table-striped table-hover" id="tabla1">
+                    <thead class="table-dark">
+                        <tr>
+                            <td></td>
+                            <td>Titulo del libro</td>
+                            <td>Año de publicacion</td>
+                            <td>Autor</td>
+                            <td>Clasificacion</td>
+                            <td>Numero de paginas</td>
+                            <td>Tipo de pasta</td>
+                        </tr>
+                        <button type="button" onclick="mostrarLibros()" class="btn btn-primary">Mostrar</button>
+                    </thead>
+                    <tbody id="bodyTable">
+
+                    </tbody>                     
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
